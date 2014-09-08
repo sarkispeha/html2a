@@ -22,3 +22,26 @@
 	border-spacing: 10px;
 
 }
+
+.chart {
+	width:100%;
+
+}
+.chart th {
+	width: 150px;
+
+}
+
+.chart div{
+	background-color: blue;
+
+}
+
+.chart td{
+	font-color: white;
+}
+
+
+
+
+
