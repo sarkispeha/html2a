@@ -11,16 +11,20 @@
 .stats {
 	border-bottom: 1px solid;
 	border-top: 1px solid;
+	border-top-color: #D3D3D3;
+	border-bottom-color: #D3D3D3;
+	width: 240px;
+	height: 100px;
 }
 
 .stat-num {
 	font-size: 40px;
-
+	color: black;
 }
 
-.stats tbody {
-	border-spacing: 10px;
-
+.stats td {
+	text-align: center;
+	color: #c0c0c0;
 }
 
 .chart {
@@ -29,19 +33,19 @@
 }
 .chart th {
 	width: 150px;
+	text-align: right;
+	padding-right: 5px;
 
 }
 
 .chart div{
-	background-color: blue;
-
+	background-color: #6699ff;
+	border-radius: 0px 3px 3px 0px;
 }
 
 .chart td{
-	font-color: white;
+	color: white;
 }
-
-
 
 
 
