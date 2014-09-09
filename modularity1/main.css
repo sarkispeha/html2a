@@ -20,11 +20,13 @@
 .stat-num {
 	font-size: 40px;
 	color: black;
+	font-weight: 600;
 }
 
 .stats td {
 	text-align: center;
 	color: #c0c0c0;
+	font-size: 12px;
 }
 
 .chart {
@@ -45,6 +47,93 @@
 
 .chart td{
 	color: white;
+}
+
+
+.lightbox{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	color: black;
+}
+
+.lightbox p{
+	margin: auto;
+	border-radius: 5px;
+}
+
+.lightbox div{
+	background: white;
+	padding: 10px;
+	width: 500px;
+	margin-top: 10%;
+	margin-left: 30%;
+	border-radius: 5px;
+
+}
+
+.lightbox h3{
+	text-align: left;
+}
+
+.button {
+	text-align: right;
+	margin: 5px;
+	width: auto;
+	padding: 5px;
+	margin-top: auto;
+}
+
+.button a{
+	color:white;
+	background-color: pink;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 3px;
+	text-align: right;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+
+.image1 {
+	float:left;
+	padding-right: 5px;
+}
+
+.image2 {
+	float:left;
+	padding-right: 5px;
+}
+
+.image2para p{
+	margin-left: 8%;
+}
+
+.image3 {
+	float: left;
+}
+
+.image3para {
+	margin-left: 8%;
+
+}
+
+.subimages {
+	float:left;
+	margin-right: 10px;
+}
+
+.subcomment {
+	margin-left: 6%;
 }
 
 
